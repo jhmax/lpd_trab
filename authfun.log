@@ -1,0 +1,49 @@
+Feb 7 10:00:00 localhost sshd[12345]: Failed password for root from 192.168.1.1 port 22 ssh2
+Feb 7 10:05:10 localhost sshd[12346]: Accepted password for user1 from 192.168.1.2 port 22 ssh2
+Feb 7 10:10:15 localhost sshd[12347]: Failed password for invalid user admin from 192.168.1.3 port 22 ssh2
+Feb 7 10:15:20 localhost sshd[12348]: Failed password for root from 192.168.1.4 port 22 ssh2
+Feb 7 10:20:30 localhost sshd[12349]: Authentication failure for invalid user john from 192.168.1.5 port 22 ssh2
+Feb 7 10:25:35 localhost sshd[12350]: Accepted password for user2 from 192.168.1.6 port 22 ssh2
+
+Feb 7 10:30:00 localhost sshd[12351]: *Invalid entry without correct date or format*
+Feb 7 10:35:10 localhost sshd[12352]: Failed password for root from 192.168.1.7 port 22 ssh2
+Feb 7 10:40:00 localhost sshd[12353]: Accepted password for user3 from 192.168.1.8 port 22 ssh2
+Feb 7 10:45:45 localhost sshd[12354]: Authentication failure for invalid user admin from 192.168.1.9 port 22 ssh2
+Feb 7 10:50:50 localhost sshd[12355]: *Malformed entry example with missing field*
+
+Feb 7 11:00:00 localhost sshd[12356]: Failed password for root from 192.168.1.10 port 22 ssh2
+Feb 7 11:05:05 localhost sshd[12357]: *Unfinished log entry due to missing data
+Feb 7 11:10:00 localhost sshd[12358]: Accepted password for user4 from 192.168.1.11 port 22 ssh2
+
+Feb 7 11:20:00 localhost sshd[12359]: Failed password for invalid user guest from 192.168.1.12 port 22 ssh2
+Feb 7 11:30:00 localhost sshd[12360]: *Missing user and invalid data entry*
+Feb 7 11:35:30 localhost sshd[12361]: Accepted password for user5 from 192.168.1.13 port 22 ssh2
+Feb 7 11:40:40 localhost sshd[12362]: Failed password for root from 192.168.1.14 port 22 ssh2
+Feb 7 11:45:00 localhost sshd[12363]: Authentication failure for invalid user mike from 192.168.1.15 port 22 ssh2
+
+Feb 7 11:50:00 localhost sshd[12364]: *Another invalid log format without necessary fields*
+Feb 7 10:00:00 localhost sshd[12345]: Failed password for root from 192.168.1.1 port 22 ssh2
+Feb 7 10:05:10 localhost sshd[12346]: Failed password for root from 192.168.1.1 port 2222 ssh2
+Feb 7 10:10:15 localhost sshd[12347]: Failed password for root from 192.168.1.1 port 22 ssh2
+Feb 7 10:15:20 localhost sshd[12348]: Failed password for root from 192.168.1.2 port 22 ssh2
+Feb 7 10:20:30 localhost sshd[12349]: Failed password for user1 from 192.168.1.3 port 22 ssh2
+Feb 7 10:25:35 localhost sshd[12350]: Failed password for user1 from 192.168.1.2 port 2222 ssh2
+Feb 7 10:30:00 localhost sshd[12351]: Failed password for root from 192.168.1.2 port 22 ssh2
+Feb 7 10:35:10 localhost sshd[12352]: Failed password for root from 192.168.1.2 port 2222 ssh2
+Feb 7 10:40:00 localhost sshd[12353]: Failed password for root from 192.168.1.3 port 22 ssh2
+Feb 7 10:45:45 localhost sshd[12354]: Failed password for root from 192.168.1.3 port 22 ssh2
+Feb 7 10:50:50 localhost sshd[12355]: Failed password for user2 from 192.168.1.4 port 22 ssh2
+Feb 7 11:00:00 localhost sshd[12356]: Failed password for user2 from 192.168.1.4 port 2222 ssh2
+Feb 7 11:05:05 localhost sshd[12357]: Failed password for user2 from 192.168.1.4 port 2222 ssh2
+Feb 7 11:10:00 localhost sshd[12358]: Failed password for user3 from 192.168.1.5 port 22 ssh2
+Feb 7 11:15:30 localhost sshd[12359]: Failed password for user3 from 192.168.1.5 port 2222 ssh2
+Feb 7 11:20:00 localhost sshd[12360]: Failed password for user3 from 192.168.1.6 port 22 ssh2
+Feb 7 11:25:00 localhost sshd[12361]: Failed password for user3 from 192.168.1.6 port 2222 ssh2
+Feb 7 11:30:30 localhost sshd[12362]: Failed password for root from 192.168.1.7 port 22 ssh2
+Feb 7 11:35:00 localhost sshd[12363]: Failed password for root from 192.168.1.7 port 22 ssh2
+Feb 7 11:40:30 localhost sshd[12364]: Failed password for root from 192.168.1.7 port 2222 ssh2
+Feb 7 11:45:40 localhost sshd[12365]: Failed password for user4 from 192.168.1.8 port 22 ssh2
+Feb 7 11:50:00 localhost sshd[12366]: Failed password for user4 from 192.168.1.8 port 2222 ssh2
+Feb 7 11:55:10 localhost sshd[12367]: Failed password for user4 from 192.168.1.8 port 2222 ssh2
+
+
