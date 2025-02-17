@@ -24,7 +24,7 @@ from netdiscover_tool import netdiscover  # Importa a função netdiscover
 from nmap_tool import nmap_scan
 from udp_flood import udp_flood
 from tcp_flood import tcp_flood
-from log_files import load_patterns, run_analysis, analyze_log_file, save_report, plot_suspicious_activity
+from log_files import  run_analysis, analyze_log_file, save_report, plot_suspicious_activity
 from python_server import python_server
 from port_knocking import check_ssh_port
 
@@ -80,7 +80,7 @@ def menu():
         elif choice == '5':
             tcp_flood()
         elif choice == '6':
-            load_patterns()
+            
             log_file = input(Fore.YELLOW + "Enter the path of the log file to analyze: " + Fore.RESET)
             run_analysis(log_file)
         elif choice == '7':

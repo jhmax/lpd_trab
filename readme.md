@@ -123,6 +123,3 @@ port_knocking.py
 
  implementa a técnica de port knocking para abrir temporariamente a porta SSH de uma máquina Linux. A técnica só permite o acesso SSH após um conjunto de "batidas" em portas específicas.
 ```
-
-Salve este conteúdo no arquivo `README.md` no diretório `/home/kali/Desktop/lpd_trab/`.
-Salve este conteúdo no arquivo `README.md` no diretório `/home/kali/Desktop/lpd_trab/`.
